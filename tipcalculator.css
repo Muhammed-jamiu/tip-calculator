@@ -1,0 +1,117 @@
+/*tipcalculator*/
+
+body {
+  /* background: #333 url(.//Javascript/image1.png) center center no-repeat; */
+  background-size: cover;
+  color: #000;
+  /* background-color: blue; */
+}
+
+#container {
+  width: 400px;
+  padding: 50px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+  /* background: url(.//Javascript/image1.png); */
+  top: left;
+  background-color: blue;
+  background: no-repeat;
+  box-shadow: 0 10px 15px 8px #000;
+  border-radius: 20px;
+  border: solid black 4px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: 2px solid darkgrey;
+  height: 40px;
+}
+
+form {
+  text-align: left;
+}
+form input,
+form select {
+  padding: 8px;
+  margin: 2px 0;
+  border-radius: 50px;
+}
+form label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+label input[type="text"] {
+  width: 90px;
+}
+button {
+  background: #6c2726;
+  color: #fff;
+  border: 5px solid darkgray;
+  border-radius: 50px;
+  border-bottom: 6px solid #222;
+  /* border-top: 5px solid #222; */
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background: #4c2827;
+  border-bottom-color: #111;
+  cursor: pointer;
+}
+
+button:active {
+  position: relative;
+  bottom: 5px;
+  cursor: progress;
+}
+#totalTip {
+  font-size: 40px;
+  margin-top: 40px;
+}
+#totalTip:before {
+  content: "";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+#totalTip sup {
+  font-size: 18px;
+  top: -18px;
+  margin-left: 90px;
+}
+#totalTip small {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+#tip {
+  font-weight: bolder;
+  color: blue;
+}
+#text {
+  font-style: italic;
+  font-size: 15px;
+  position: relative;
+  float: initial;
+  color: #fff;
+  /* background-color: #6c2726; */
+  width: 100%;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px black;
+}
